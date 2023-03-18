@@ -19,6 +19,7 @@
 		C5FB9E8429C5603700C7C6AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C5FB9E8629C5603900C7C6AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5FB9E8929C5603900C7C6AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C5FB9E9029C560BC00C7C6AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +52,7 @@
 		C5FB9E8129C5603700C7C6AC /* SwiftUILocalization */ = {
 			isa = PBXGroup;
 			children = (
+				C5FB9E9029C560BC00C7C6AC /* Info.plist */,
 				C5FB9E8229C5603700C7C6AC /* SwiftUILocalizationApp.swift */,
 				C5FB9E8429C5603700C7C6AC /* ContentView.swift */,
 				C5FB9E8629C5603900C7C6AC /* Assets.xcassets */,
@@ -109,6 +111,9 @@
 			knownRegions = (
 				en,
 				Base,
+				ko,
+				es,
+				ja,
 			);
 			mainGroup = C5FB9E7629C5603700C7C6AC;
 			productRefGroup = C5FB9E8029C5603700C7C6AC /* Products */;
@@ -270,6 +275,7 @@
 				DEVELOPMENT_TEAM = YULBA58FUP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUILocalization/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +305,7 @@
 				DEVELOPMENT_TEAM = YULBA58FUP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUILocalization/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -8,14 +8,56 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var one = 1
+    @State var two = 2
+    var count = 2
+
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            
+            VStack {
+                Text("영어")
+                    .fontWeight(.bold)
+                    .padding()
+                Text("^[\(one) Person](inflect: true)")
+                Text("^[\(two) Person](inflect: true)")
+                Text("^[\(two) kid](inflect: true)")
+                Text("^[\(two) time](inflect: true)")
+                Text("^[\(2) \(String(localized: "Medium"))](inflect: true)")
+                Text("^[\(two) Medium](inflect: true)")
+                
+                
+            }
+            
+            
+            VStack {
+                Text("일본어")
+                    .fontWeight(.bold)
+                    .padding()
+                Text("^[\(one) 人](inflect: true)")
+                Text("^[\(two) 人](inflect: true)")
+                
+            }
+            
+            Text("스페인어")
+                .fontWeight(.bold)
+                .padding()
+            Text("^[\(one) persona](inflect: true)")
+            Text("^[\(two) persona](inflect: true)")
+            
+            
+            Text("한국어")
+                .fontWeight(.bold)
+                .padding()
+            Text("^[\(two) 권](inflect: true)")
+            
+            
+            
+            
         }
         .padding()
+        .environment(\.locale, .init(identifier: "ko"))
     }
 }
 
